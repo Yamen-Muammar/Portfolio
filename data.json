@@ -2,14 +2,15 @@
   "personal": {
     "name": "Yamen Muammar",
     "title": "Software Developer",
-    "bio": "Software developer dedicated to building impactful digital experiences. I specialize in backend technologies.",
+    "bio": "Engineering high-scale C# architectures where performance is the primary feature.Optimizing SQL systems to handle million-row datasets with zero-lag responsiveness.Crafting resilient, asynchronous software built for professional-grade longevity. ",
     "email": "yamenmuamar@gmail.com",
     "github": "https://github.com/Yamen-Muammar",
     "linkedin": "https://linkedin.com"
   },
   "skills": [
     "C#",
-    "SQL"
+    "SQL",
+    "Git", "Visual Studio", "SSMS", "Antigravity","Claude","VSCode"
   ],
   "projects": [
     {
