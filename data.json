@@ -18,18 +18,19 @@
     "Git & GitHub",
     "Visual Studio",
     "Problem Solving"
+    ,"AI Tools"
   ],
   "projects": [
     {
       "title": "DVLD System",
       "description": "A comprehensive driving license management system built with C# and WinForms. Handles license issuance, renewals, applicant records, and test scheduling — backed by a relational SQL Server database with full CRUD operations and business logic layers.",
-      "link": "https://github.com/Yamen-Muammar",
+      "link": "https://github.com/Yamen-Muammar/DVLD",
       "tags": [
         "C#",
         "WinForms",
         "SQL Server",
         "OOP",
-        "N-Tier Architecture"
+        "3-Tier Architecture"
       ]
     }
   ]
