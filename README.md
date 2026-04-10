@@ -2,7 +2,7 @@
 
 A fast, accessible, and production-ready personal portfolio built with **vanilla HTML, CSS, and JavaScript** — deployed on **Vercel**.
 
-🔗 **Live:** [yamen-muammar.vercel.app](https://yamen-muammar.vercel.app)
+🔗 **Live:** [yamen-muammar.vercel.app](https://yamenmuammar.vercel.app)
 
 ---
 
