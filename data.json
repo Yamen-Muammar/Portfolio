@@ -1,0 +1,26 @@
+{
+  "personal": {
+    "name": "Yamen Muammar",
+    "title": "Software Developer",
+    "bio": "Hello! I am a passionate software developer dedicated to building impactful digital experiences. I specialize in backend technologies.",
+    "email": "yamenmuamar@gmail.com",
+    "github": "https://github.com/Yamen-Muammar",
+    "linkedin": "https://linkedin.com"
+  },
+  "skills": [
+    "C#",
+    "SQL"
+  ],
+  "projects": [
+    {
+      "title": "DVLD System",
+      "description": "A comprehensive driving license management system built using C# and WinForms.",
+      "link": "#",
+      "tags": [
+        "C#",
+        "WinForms",
+        "Sql Server Database"
+      ]
+    }
+  ]
+}
