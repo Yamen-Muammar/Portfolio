@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yamen-muammar.vercel.app/sitemap.xml
+Sitemap: https://yamenmuammar.vercel.app/sitemap.xml
