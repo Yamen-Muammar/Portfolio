@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yamen-muammar.vercel.app/sitemap.xml

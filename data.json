@@ -2,25 +2,34 @@
   "personal": {
     "name": "Yamen Muammar",
     "title": "Software Developer",
-    "bio": "Engineering high-scale C# architectures where performance is the primary feature, Optimizing SQL systems to handle million-row datasets with zero-lag responsiveness.Crafting resilient, asynchronous software built for professional-grade longevity. ",
+    "bio": "Software developer dedicated to building impactful digital experiences. I specialize in backend technologies, crafting data-driven desktop and web applications using C# and SQL Server with a focus on clean architecture and real-world problem solving.",
     "email": "yamenmuamar@gmail.com",
     "github": "https://github.com/Yamen-Muammar",
-    "linkedin": "https://linkedin.com"
+    "linkedin": "https://linkedin.com/in/yamen-muammar"
   },
   "skills": [
     "C#",
-    "SQL",
-    "Git", "Visual Studio", "SSMS", "Antigravity","Claude","VSCode"
+    "SQL Server",
+    "WinForms",
+    "OOP",
+    "REST APIs",
+    "MVC",
+    "Database Design",
+    "Git & GitHub",
+    "Visual Studio",
+    "Problem Solving"
   ],
   "projects": [
     {
       "title": "DVLD System",
-      "description": "A comprehensive driving license management system built using C# and WinForms.",
-      "link": "#",
+      "description": "A comprehensive driving license management system built with C# and WinForms. Handles license issuance, renewals, applicant records, and test scheduling — backed by a relational SQL Server database with full CRUD operations and business logic layers.",
+      "link": "https://github.com/Yamen-Muammar",
       "tags": [
         "C#",
         "WinForms",
-        "Sql Server Database"
+        "SQL Server",
+        "OOP",
+        "N-Tier Architecture"
       ]
     }
   ]

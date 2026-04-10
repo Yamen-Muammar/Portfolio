@@ -2,90 +2,163 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Loading...</title>
-    <meta name="description" content="Personal Portfolio">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary Meta -->
+  <title>Yamen Muammar | Software Developer</title>
+  <meta name="description" content="Yamen Muammar — Software Developer specializing in C# and SQL Server backend systems. Building impactful, data-driven desktop and web applications.">
+  <meta name="keywords" content="Yamen Muammar, Software Developer, C#, SQL Server, WinForms, Backend Developer, Portfolio">
+  <meta name="author" content="Yamen Muammar">
+  <link rel="canonical" href="https://yamen-muammar.vercel.app/">
+
+  <!-- Open Graph (LinkedIn, WhatsApp, Facebook) -->
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://yamen-muammar.vercel.app/">
+  <meta property="og:title"       content="Yamen Muammar | Software Developer">
+  <meta property="og:description" content="Software Developer specializing in C# and SQL Server backend systems. Building impactful, data-driven applications.">
+  <meta property="og:image"       content="https://yamen-muammar.vercel.app/profile_pic.png">
+  <meta property="og:image:alt"   content="Yamen Muammar profile photo">
+  <meta property="og:site_name"   content="Yamen Muammar Portfolio">
+  <meta property="og:locale"      content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Yamen Muammar | Software Developer">
+  <meta name="twitter:description" content="Software Developer specializing in C# and SQL Server backend systems.">
+  <meta name="twitter:image"       content="https://yamen-muammar.vercel.app/profile_pic.png">
+
+  <!-- Favicon (generate your set at https://favicon.io and replace these) -->
+  <link rel="icon"             href="/favicon.ico" sizes="any">
+  <link rel="icon"             href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest"         href="/site.webmanifest">
+  <meta name="theme-color"     content="#0f172a">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Yamen Muammar",
+    "jobTitle": "Software Developer",
+    "url": "https://yamen-muammar.vercel.app/",
+    "email": "yamenmuamar@gmail.com",
+    "sameAs": [
+      "https://github.com/Yamen-Muammar",
+      "https://linkedin.com/in/yamen-muammar"
+    ],
+    "knowsAbout": ["C#", "SQL Server", "WinForms", "Backend Development", "OOP"]
+  }
+  </script>
 </head>
 
 <body>
-    <div class="blob blob-1"></div>
-    <div class="blob blob-2"></div>
+  <!-- Skip to main content (Accessibility) -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-    <nav class="glass-nav">
-        <a href="#hero" class="nav-brand" id="navName">...</a>
-        <div class="nav-links">
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+  <div class="blob blob-1" aria-hidden="true"></div>
+  <div class="blob blob-2" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <nav class="glass-nav" role="navigation" aria-label="Main navigation">
+    <a href="#hero" class="nav-brand" id="navName" aria-label="Home">YM</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+      <span class="hamburger"></span>
+      <span class="hamburger"></span>
+      <span class="hamburger"></span>
+    </button>
+    <div class="nav-links" id="navLinks" role="menubar">
+      <a href="#about"    role="menuitem">About</a>
+      <a href="#skills"   role="menuitem">Skills</a>
+      <a href="#projects" role="menuitem">Projects</a>
+      <a href="#contact"  role="menuitem">Contact</a>
+    </div>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- Hero -->
+    <section id="hero" class="hero-section" aria-label="Introduction">
+      <div class="hero-content-wrapper">
+        <div class="hero-content">
+          <p class="greeting">Hi, my name is</p>
+          <h1 id="heroName" class="hero-name">Yamen Muammar</h1>
+          <h2 id="heroTitle" class="gradient-text">Software Developer</h2>
+          <p id="heroBio" class="bio">Software developer dedicated to building impactful digital experiences. I specialize in backend technologies.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn primary-btn">View My Work</a>
+            <a href="#contact"  class="btn secondary-btn">Contact Me</a>
+          </div>
         </div>
-    </nav>
+        <div class="hero-image">
+          <img
+            src="profile_pic.png"
+            alt="Yamen Muammar — Software Developer"
+            class="profile-pic"
+            loading="eager"
+            width="350"
+            height="350"
+            onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=Yamen+Muammar&size=350&background=3b82f6&color=fff&bold=true';"
+          >
+        </div>
+      </div>
+    </section>
 
-    <main>
-        <section id="hero" class="hero-section">
-            <div class="hero-content-wrapper">
-                <div class="hero-content">
-                    <p class="greeting">Hi, my name is</p>
-                    <h1 id="heroName" class="glitch-text">Loading...</h1>
-                    <h2 id="heroTitle" class="gradient-text">Developer</h2>
-                    <p id="heroBio" class="bio">...</p>
-                    <div class="hero-actions">
-                        <a href="#projects" class="btn primary-btn">View My Work</a>
-                        <a href="#contact" class="btn secondary-btn">Contact Me</a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <img loading="lazy"  src="profile_pic.png" alt="Profile Picture" class="profile-pic">
-                </div>
-            </div>
-        </section>
+    <!-- About -->
+    <section id="about" class="fade-in" aria-label="About me">
+      <div class="section-container glass-card">
+        <h2>About Me</h2>
+        <p id="aboutBio">Software developer dedicated to building impactful digital experiences. I specialize in backend technologies.</p>
+      </div>
+    </section>
 
-        <section id="about" class="fade-in">
-            <div class="section-container glass-card">
-                <h2>About Me</h2>
-                <p id="aboutBio">...</p>
-            </div>
-        </section>
+    <!-- Skills -->
+    <section id="skills" class="fade-in" aria-label="Skills">
+      <div class="section-container">
+        <h2>My Skills</h2>
+        <div id="skillsList" class="skills-grid" role="list" aria-label="Technical skills">
+          <!-- Injected by script.js -->
+        </div>
+      </div>
+    </section>
 
-        <section id="skills" class="fade-in">
-            <div class="section-container">
-                <h2>My Skills</h2>
-                <div id="skillsList" class="skills-grid">
-                    <!-- Skills will be injected here -->
-                </div>
-            </div>
-        </section>
+    <!-- Projects -->
+    <section id="projects" class="fade-in" aria-label="Projects">
+      <div class="section-container">
+        <h2>Featured Projects</h2>
+        <div id="projectsList" class="projects-grid">
+          <!-- Injected by script.js -->
+        </div>
+      </div>
+    </section>
 
-        <section id="projects" class="fade-in">
-            <div class="section-container">
-                <h2>Featured Projects</h2>
-                <div id="projectsList" class="projects-grid">
-                    <!-- Projects will be injected here -->
-                </div>
-            </div>
-        </section>
+    <!-- Contact -->
+    <section id="contact" class="fade-in" aria-label="Contact">
+      <div class="section-container glass-card contact-card">
+        <h2>Get In Touch</h2>
+        <p>I'm always open to new opportunities and interesting projects. Feel free to reach out!</p>
+        <div class="social-links" id="socialLinks" aria-label="Social and contact links">
+          <!-- Injected by script.js -->
+        </div>
+      </div>
+    </section>
 
-        <section id="contact" class="fade-in">
-            <div class="section-container glass-card contact-card">
-                <h2>Get In Touch</h2>
-                <p>I'm always open to new opportunities and interesting projects.</p>
-                <div class="social-links" id="socialLinks">
-                    <!-- Socials injected here -->
-                </div>
-            </div>
-        </section>
-    </main>
+  </main>
 
-    <footer>
-        <p>&copy; <span id="year"></span> <span id="footerName"></span>. All rights reserved.</p>
-    </footer>
+  <footer role="contentinfo">
+    <p>&copy; <span id="year"></span> <span id="footerName">Yamen Muammar</span>. All rights reserved.</p>
+  </footer>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
