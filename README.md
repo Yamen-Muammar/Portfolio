@@ -121,7 +121,3 @@ Configured in `vercel.json`:
 - [ ] Add more projects as you build them
 
 ---
-
-## 📄 License
-
-MIT — free to use and adapt for your own portfolio.
