@@ -120,7 +120,6 @@ function populatePortfolio(data) {
   const socials = [
     { key: 'email',    href: `mailto:${p.email}`,   label: '✉ Email'    },
     { key: 'github',   href: p.github,               label: '⌥ GitHub'   },
-    { key: 'linkedin', href: p.linkedin,             label: 'in LinkedIn' },
   ];
 
   socials.forEach(({ key, href, label }) => {
