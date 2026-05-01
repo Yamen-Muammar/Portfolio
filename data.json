@@ -32,7 +32,7 @@
         "OOP",
         "3-Tier Architecture"
       ]
-    }
+    },
      {
       "title": "Tech Store",
       "description": "Tech Store is a cross-platform (web, mobile, desktop) centralized by backend API to manage computer component inventories using SQL Server, implementing Create, Read, Update, and Delete (CRUD) operations for products and orders. Business logic layers ensure inventory integrity, while a secure API connects the front-end interfaces to the database. ",
@@ -45,7 +45,7 @@
         "OOP",
         "3-Tier Architecture"
       ]
-    }
+    },
     {
       "title": "Bank Desktop Application",
       "description": "Simple Bank System for Educational Purposes.",
@@ -55,7 +55,7 @@
         "WinForms",
         "Linq",
         "SQL Server",
-        "Basic OOP",
+        "Basic OOP"
       ]
     }
   ]
