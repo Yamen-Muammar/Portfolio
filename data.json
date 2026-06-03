@@ -57,6 +57,19 @@
         "SQL Server",
         "Basic OOP"
       ]
+    },
+    {
+  "title": "Dental Clinic System",
+  "description": "A production-ready clinic management system actively deployed at a real dental clinic. Streamlines patient records, appointment scheduling, and clinical workflows built on a clean, layered architecture.",
+  "link": "https://github.com/Yamen-Muammar/DentalClinic",
+  "tags": [
+    "C#",
+    "WinForms gun2 Framework",
+    "SQL Server",
+    "OOP",
+    "3-Tier Architecture",
+    "Repository Pattern"
+        ]
     }
   ]
 }
