@@ -33,7 +33,7 @@
     "3-Tier Architecture",
     "Repository Pattern"
         ]
-    }
+    },
     {
       "title": "DVLD System",
       "description": "A comprehensive driving license management system built with C# and WinForms. Handles license issuance, renewals, applicant records, and test scheduling — backed by a relational SQL Server database with full CRUD operations and business logic layers.",
