@@ -1,14 +1,23 @@
 /* ─── Design Tokens ────────────────────────────────────────────────────────── */
 :root {
-  --bg-dark:      #0f172a;
-  --text-primary: #f8fafc;
-  --text-secondary: #94a3b8;
-  --accent-1:     #3b82f6;
-  --accent-2:     #8b5cf6;
-  --glass-bg:     rgba(30, 41, 59, 0.7);
-  --glass-border: rgba(255, 255, 255, 0.1);
-  --radius-card:  16px;
-  --transition:   0.3s ease;
+  --bg-dark:       #131313;
+  --text-primary:  #e5e2e1;
+  --text-secondary:#cfc2d6;
+  --accent-1:      #a855f7;
+  --accent-2:      #4cd7f6;
+  --accent-1-dim:  #ddb7ff;
+  --accent-2-dim:  #a5f3fc;
+  --surface-low:   #1c1b1b;
+  --surface:       #201f1f;
+  --surface-high:  #2a2a2a;
+  --glow-1:        rgba(168, 85, 247, 0.25);
+  --glow-2:        rgba(76, 215, 246, 0.2);
+  --glass-bg:      rgba(20, 19, 19, 0.8);
+  --glass-border:  rgba(255, 255, 255, 0.08);
+  --radius-card:   16px;
+  --transition:    0.3s ease;
+  --font-display:  'Syne', sans-serif;
+  --font-body:     'Inter', sans-serif;
 }
 
 /* ─── Reset & Base ──────────────────────────────────────────────────────────── */
@@ -98,7 +107,7 @@ body {
 }
 
 .nav-brand {
-  font-family: 'Outfit', sans-serif;
+  font-family: var(--font-display);
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--text-primary);
@@ -161,8 +170,19 @@ section {
 
 .section-container { width: 100%; }
 
+.section-eyebrow {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+  margin-bottom: 0.5rem;
+}
+
 h2 {
-  font-family: 'Outfit', sans-serif;
+  font-family: var(--font-display);
   font-size: 2.5rem;
   margin-bottom: 2.5rem;
   position: relative;
@@ -181,8 +201,8 @@ h2::after {
 
 /* ─── Glass Card ─────────────────────────────────────────────────────────────── */
 .glass-card {
-  background: rgba(30, 41, 59, 0.4);
-  backdrop-filter: blur(12px);
+  background: rgba(20, 19, 19, 0.75);
+  backdrop-filter: blur(24px);
   border: 1px solid var(--glass-border);
   border-radius: 20px;
   padding: 3rem;
@@ -205,17 +225,19 @@ h2::after {
 .hero-content { max-width: 600px; }
 
 .greeting {
-  color: var(--accent-1);
+  color: var(--accent-2);
   font-weight: 600;
   margin-bottom: 0.75rem;
-  font-family: 'Outfit', sans-serif;
-  letter-spacing: 0.5px;
+  font-family: var(--font-body);
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
 }
 
 /* Hero name — glitch effect */
 .hero-name {
   font-size: clamp(2.8rem, 8vw, 5rem);
-  font-family: 'Outfit', sans-serif;
+  font-family: var(--font-display);
   line-height: 1.1;
   margin-bottom: 0.5rem;
   position: relative;
@@ -278,15 +300,15 @@ h2::after {
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid var(--glass-border);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4),
-              0 0 40px rgba(59, 130, 246, 0.25);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5),
+              0 0 40px var(--glow-1);
   transition: transform var(--transition), box-shadow var(--transition);
   display: block;
 }
 .profile-pic:hover {
   transform: scale(1.03);
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5),
-              0 0 60px rgba(139, 92, 246, 0.35);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.6),
+              0 0 60px var(--glow-2);
 }
 
 /* ─── Buttons ────────────────────────────────────────────────────────────────── */
@@ -313,7 +335,7 @@ h2::after {
 }
 .primary-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(59, 130, 246, 0.4);
+  box-shadow: 0 10px 28px var(--glow-1);
 }
 
 .secondary-btn {
@@ -334,21 +356,23 @@ h2::after {
 }
 
 .skill-tag {
-  background: rgba(59, 130, 246, 0.1);
-  color: var(--accent-1);
-  padding: 0.7rem 1.4rem;
-  border-radius: 50px;
+  background: transparent;
+  color: var(--accent-1-dim);
+  padding: 0.55rem 1.25rem;
+  border-radius: 9999px;
   font-weight: 600;
-  font-size: 0.9rem;
-  border: 1px solid rgba(59, 130, 246, 0.2);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border: 1px solid var(--accent-1);
   transition: all var(--transition);
   cursor: default;
   user-select: none;
 }
 .skill-tag:hover {
-  background: rgba(59, 130, 246, 0.2);
+  background: var(--glow-1);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+  box-shadow: 0 4px 16px var(--glow-1);
 }
 
 /* ─── Projects ───────────────────────────────────────────────────────────────── */
@@ -359,7 +383,7 @@ h2::after {
 }
 
 .project-card {
-  background: rgba(30, 41, 59, 0.5);
+  background: rgba(20, 19, 19, 0.6);
   border: 1px solid var(--glass-border);
   border-radius: var(--radius-card);
   padding: 2rem;
@@ -382,12 +406,12 @@ h2::after {
 .project-card:hover::before { opacity: 1; }
 .project-card:hover {
   transform: translateY(-8px);
-  border-color: rgba(139, 92, 246, 0.4);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  border-color: rgba(168, 85, 247, 0.35);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 32px var(--glow-1);
 }
 
 .project-title {
-  font-family: 'Outfit', sans-serif;
+  font-family: var(--font-display);
   font-size: 1.4rem;
   margin-bottom: 1rem;
   color: var(--text-primary);
@@ -400,12 +424,15 @@ h2::after {
   margin-bottom: 1.2rem;
 }
 .project-tag {
-  font-size: 0.78rem;
-  color: var(--accent-2);
-  background: rgba(139, 92, 246, 0.1);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-2-dim);
+  background: rgba(76, 215, 246, 0.06);
   padding: 0.25rem 0.75rem;
-  border-radius: 20px;
-  border: 1px solid rgba(139, 92, 246, 0.2);
+  border-radius: 9999px;
+  border: 1px solid rgba(76, 215, 246, 0.25);
 }
 
 .project-desc {
@@ -457,10 +484,11 @@ h2::after {
   transition: all var(--transition);
 }
 .social-links a:hover {
-  color: var(--accent-1);
+  color: var(--accent-1-dim);
   border-color: var(--accent-1);
-  background: rgba(59, 130, 246, 0.1);
+  background: var(--glow-1);
   transform: translateY(-2px);
+  box-shadow: 0 0 16px var(--glow-1);
 }
 
 /* ─── Footer ─────────────────────────────────────────────────────────────────── */
@@ -495,7 +523,7 @@ footer {
 }
 
 .skeleton-card {
-  background: rgba(30, 41, 59, 0.5);
+  background: rgba(20, 19, 19, 0.6);
   border: 1px solid var(--glass-border);
   border-radius: var(--radius-card);
   padding: 2rem;
