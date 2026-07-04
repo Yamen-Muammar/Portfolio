@@ -1,75 +1,154 @@
 {
   "personal": {
     "name": "Yamen Muammar",
-    "title": "Software Developer",
-    "bio": "Software developer dedicated to building impactful digital experiences ,specialized in backend technologies, crafting data-driven desktop and web applications using C# and SQL Server with a focus on clean architecture and real-world problem solving.",
+    "title": "Software Engineer",
+    "bio": "A self-driven software engineering student who builds real, production-grade software — learned and shipped from Gaza, against the odds.",
     "email": "yamenmuamar@gmail.com",
+    "phone": "+972 567 405140",
     "github": "https://github.com/Yamen-Muammar",
-    "linkedin": "https://linkedin.com/in/yamen-muammar"
+    "linkedin": "https://linkedin.com/in/yamen-muammar",
+    "liveSite": "https://yamenmuammar.vercel.app/",
+    "resumeUrl": "docs/YamenMuammar - ComputerScience.pdf",
+    "location": "Gaza, Palestine",
+    "availability": true,
+    "heroEyebrow": "PORTFOLIO — SOFTWARE ENGINEER — GAZA, PALESTINE",
+    "heroCaption": "YAMEN MUAMMAR / GAZA ' 21",
+    "heroBadges": [
+      "◴ Gaza, Palestine",
+      "✦ C# · SQL · Web",
+      "↳ Self-taught · 20+ courses"
+    ]
+  },
+  "about": {
+    "headline": "Resilient, self-taught, and relentlessly building.",
+    "paragraph1": "I'm Yamen — a software engineering student from Gaza, Palestine. I've completed 20+ structured programming courses and independently built real-world applications, including a full government-scale licensing system, this portfolio and SaaS for a Dental Clinic. I care about clean architecture, solid fundamentals, and writing code that holds up.",
+    "paragraph2": "I kept learning and shipping software independently throughout a conflict zone with limited resources. Now I'm looking to grow into a full-stack software engineering role.",
+    "stats": [
+      { "value": "20+", "label": "COURSES COMPLETED" },
+      { "value": "300+", "label": "COMMITS ON GITHUB" },
+      { "value": "2", "label": "PRODUCTION APPS" }
+    ]
   },
   "skills": [
     "C#",
+    "C++",
     "SQL Server",
-    "WinForms",
+    "HTML",
+    "CSS",
+    "JavaScript",
     "OOP",
-    "REST APIs",
-    "MVC",
-    "Database Design",
-    "Git & GitHub",
-    "Visual Studio",
-    "Problem Solving"
-    ,"AI Tools"
-  ],
-  "projects": [    
-    {
-  "title": "Dental Clinic System",
-  "description": "A production-ready clinic management system actively deployed at a real dental clinic. Streamlines patient records, appointment scheduling, and clinical workflows built on a clean, layered architecture.",
-  "link": "https://github.com/Yamen-Muammar/DentalClinic",
-  "tags": [
-    "C#",
-    "WinForms gun2 Framework",
-    "SQL Server",
-    "OOP",
+    "Data Structures",
+    "Algorithms",
     "3-Tier Architecture",
-    "Repository Pattern"
-        ]
+    "Clean Architecture",
+    "Git",
+    "GitHub",
+    "Vercel",
+    "Problem Solving",
+    "AI Tools"
+  ],
+  "projects": [
+    {
+      "title": "Dental Clinic System",
+      "description": "A production-ready clinic management system actively deployed at a real dental clinic. Streamlines patient records, appointment scheduling, and clinical workflows built on a clean, layered architecture.",
+      "blurb": "A real-world dental clinic management system in active development — handling patients, appointments, treatments and clinical records, built on the same clean 3-Tier architecture as my DVLD system.",
+      "link": "https://github.com/Yamen-Muammar/DentalClinic",
+      "year": "2026",
+      "category": "desktop",
+      "stack": "C# · SQL Server · 3-Tier",
+      "type": "In Dev",
+      "status": "IN DEVELOPMENT",
+      "tags": ["C#", "WinForms", "SQL Server", "OOP", "3-Tier Architecture", "Repository Pattern"],
+      "screens": [],
+      "screenSlots": 2
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "A responsive portfolio website showcasing my projects and skills as a software developer.",
+      "blurb": "A modern, responsive portfolio website built with HTML, CSS, and JavaScript to highlight my work and expertise.",
+      "link": "https://github.com/Yamen-Muammar/Portfolio",
+      "year": "2026",
+      "category": "web",
+      "stack": "HTML/CSS/JS",
+      "type": "Web",
+      "tags": ["HTML/CSS", "JavaScript"]
     },
     {
       "title": "DVLD System",
       "description": "A comprehensive driving license management system built with C# and WinForms. Handles license issuance, renewals, applicant records, and test scheduling — backed by a relational SQL Server database with full CRUD operations and business logic layers.",
+      "blurb": "A large-scale desktop app simulating a full government Driving & Vehicle License Department — 15+ screens, 14+ relational tables, 50+ service & data-access classes, 200+ commits.",
       "link": "https://github.com/Yamen-Muammar/DVLD",
-      "tags": [
-        "C#",
-        "WinForms",
-        "SQL Server",
-        "OOP",
-        "3-Tier Architecture"
-      ]
+      "year": "2026",
+      "category": "desktop",
+      "stack": "C# · SQL Server · 3-Tier",
+      "type": "Desktop",
+      "status": "Done",
+      "tags": ["C#", "WinForms", "SQL Server", "OOP", "3-Tier Architecture"],
+      "screens": [
+        { "id": "login", "src": "images/DVLD/Login Form.jpg", "alt": "DVLD login screen" },
+        { "id": "license-history", "src": "images/DVLD/License History For Person.png", "alt": "License history for a person" },
+        { "id": "local-license", "src": "images/DVLD/Manage Local License Application Form.png", "alt": "Manage local license application form" },
+        { "id": "replace-license", "src": "images/DVLD/Replace Damege or Lost License Form.png", "alt": "Replace damaged or lost license form" }
+      ],
+      "screenSlots": 4
     },
-     {
+    {
       "title": "Tech Store",
-      "description": "Tech Store is a cross-platform (web, mobile, desktop) centralized by backend API to manage computer component inventories using SQL Server, implementing Create, Read, Update, and Delete (CRUD) operations for products and orders. Business logic layers ensure inventory integrity, while a secure API connects the front-end interfaces to the database. ",
+      "description": "Tech Store is a cross-platform (web, mobile, desktop) system centralized by a backend API to manage computer component inventories using SQL Server, implementing CRUD operations for products and orders. Business logic layers ensure inventory integrity, while a secure API connects the front-end interfaces to the database.",
+      "blurb": "A cross-platform inventory system — web, mobile and desktop front-ends unified behind one backend API over SQL Server, with full CRUD for products and orders.",
       "link": "https://github.com/Yamen-Muammar/TechStore",
-      "tags": [
-        "C#",
-        "WinForms",
-        "html/css","javascript","APIs Concepts",
-        "SQL Server",
-        "OOP",
-        "3-Tier Architecture"
-      ]
+      "year": "2025",
+      "category": "web",
+      "stack": "C# · API · HTML/CSS/JS",
+      "type": "Cross-platform",
+      "tags": ["C#", "WinForms", "HTML/CSS", "JavaScript", "APIs", "SQL Server", "OOP", "3-Tier Architecture"]
     },
     {
       "title": "Bank Desktop Application",
       "description": "Simple Bank System for Educational Purposes.",
+      "blurb": "A simple bank system built for educational purposes — accounts, transactions and LINQ-backed queries over SQL Server.",
       "link": "https://github.com/Yamen-Muammar/Bank-App",
-      "tags": [
-        "C#",
-        "WinForms",
-        "Linq",
-        "SQL Server",
-        "Basic OOP"
-      ]
+      "year": "2024",
+      "category": "desktop",
+      "stack": "C# · LINQ · SQL Server",
+      "type": "Desktop",
+      "tags": ["C#", "WinForms", "LINQ", "SQL Server", "Basic OOP"]
     }
+  ],
+  "experience": [
+    {
+      "period": "2025 — Now",
+      "role": "Full Programming Track (20+ Courses)",
+      "company": "Programming Advices",
+      "note": "20+ structured courses covering C++, C#, OOP, data structures, algorithms, databases, SQL and Git — from one of the Arab world's largest coding academies (200,000+ students)."
+    },
+    {
+      "period": "2024 — 25",
+      "role": "C# Masterclass",
+      "company": "tutorials.eu",
+      "note": "In-depth C# course: object-oriented programming, LINQ and .NET fundamentals, with a focus on clean code and real-world debugging."
+    },
+    {
+      "period": "2023",
+      "role": "Computer Science · Software Eng.",
+      "company": "Al-Azhar University, Gaza",
+      "note": "Began my bachelor's in the Software Engineering program; studies interrupted by the war in Gaza."
+    },
+    {
+      "period": "2023",
+      "role": "IT Foundations Program",
+      "company": "Gaza Sky Geeks",
+      "note": "Intensive IT & software-development program in Python, covering CS fundamentals; served as a peer teaching assistant."
+    },
+    {
+      "period": "2021 — 23",
+      "role": "Student Government President",
+      "company": "UNRWA Schools · Gaza",
+      "note": "Elected to represent 150,000+ students; worked with UNRWA leadership to improve facilities and student-welfare programs."
+    }
+  ],
+  "languages": [
+    { "name": "Arabic", "level": "Native" },
+    { "name": "English", "level": "Proficient" }
   ]
 }
