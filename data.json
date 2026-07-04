@@ -8,7 +8,7 @@
     "github": "https://github.com/Yamen-Muammar",
     "linkedin": "https://linkedin.com/in/yamen-muammar",
     "liveSite": "https://yamenmuammar.vercel.app/",
-    "resumeUrl": "docs/YamenMuammar - ComputerScience.pdf",
+    "resumeUrl": "",
     "location": "Gaza, Palestine",
     "availability": true,
     "heroEyebrow": "PORTFOLIO — SOFTWARE ENGINEER — GAZA, PALESTINE",
@@ -21,8 +21,8 @@
   },
   "about": {
     "headline": "Resilient, self-taught, and relentlessly building.",
-    "paragraph1": "I'm Yamen — a software engineering student from Gaza, Palestine. I've completed 20+ structured programming courses and independently built real-world applications, including a full government-scale licensing system, this portfolio and SaaS for a Dental Clinic. I care about clean architecture, solid fundamentals, and writing code that holds up.",
-    "paragraph2": "I kept learning and shipping software independently throughout a conflict zone with limited resources. Now I'm looking to grow into a full-stack software engineering role.",
+    "paragraph1": "I'm Yamen — a software engineering student from Gaza, Palestine. I've completed 20+ structured programming courses and independently built real-world applications, including a full government-scale licensing system, this portfolio and Dental Clinic Management System to give ease and efficiency for Clinics. I care about clean architecture, solid fundamentals, and writing code that holds up.",
+    "paragraph2": "I kept learning and shipping software independently throughout a conflict zone with limited resources Which is demonstrates determination, patience and perseverance. Now I'm looking to grow into a dotnet software developer role.",
     "stats": [
       { "value": "20+", "label": "COURSES COMPLETED" },
       { "value": "300+", "label": "COMMITS ON GITHUB" },

@@ -396,10 +396,10 @@ function renderContact(p) {
   email.textContent = `${p.email} ↗`;
 
   const links = [
-    { label: 'GitHub,',    href: p.github,   external: true  },
+    { label: 'GitHub',    href: p.github,   external: true  },
    //{ label: 'LinkedIn →',  href: p.linkedin, external: true  },
     //{ label: 'Email,',     href: p.email ? `mailto:${p.email}` : '' },
-    { label: p.phone ? `${p.phone} .` : '', href: p.phone ? `tel:${p.phone.replace(/\s/g, '')}` : '' },
+   // { label: p.phone ? `${p.phone} .` : '', href: p.phone ? `tel:${p.phone.replace(/\s/g, '')}` : '' },
   ];
 
   const row = document.getElementById('contactLinksRow');
