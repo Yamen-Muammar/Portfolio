@@ -117,7 +117,13 @@
   ],
   "experience": [
     {
-      "period": "2025 — Now",
+      "period": "2026 — Present",
+      "role": "CS Student ",
+      "company": "Mansoura University, Egypt",
+      "note": "Currently pursuing a bachelor's degree in Computer Science at Mansoura University, Egypt."
+    },
+    {
+      "period": "2025 — Present",
       "role": "Full Programming Track (20+ Courses)",
       "company": "Programming Advices",
       "note": "20+ structured courses covering C++, C#, OOP, data structures, algorithms, databases, SQL and Git — from one of the Arab world's largest coding academies (200,000+ students)."
