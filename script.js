@@ -418,15 +418,15 @@ function renderContact(p) {
   });
 }
 
-// ─── Live Clock (Gaza time, header + footer) ────────────────────────────────
+// ─── Live Clock (Egypt time, header + footer) ────────────────────────────────
 function initClock() {
   const fmt = new Intl.DateTimeFormat('en-US', {
-    hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Asia/Gaza',
+    hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Egypt',
   });
   const tick = () => {
     const t = fmt.format(new Date());
-    document.getElementById('headerClock').textContent = `${t} GAZA`;
-    document.getElementById('footerClock').textContent = `${t} / GAZA`;
+    document.getElementById('headerClock').textContent = `${t} Egypt`;
+    document.getElementById('footerClock').textContent = `${t} / Egypt`;
   };
   tick();
   setInterval(tick, 15000);
